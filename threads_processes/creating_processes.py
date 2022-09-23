@@ -8,7 +8,7 @@ def do_work():
     i = 0
     for _ in range(20000000):
         i += 1
-    print("Finished work")
+    print(f"Finished work {i}")
 
 
 if __name__ == '__main__':
